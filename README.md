@@ -1,6 +1,6 @@
 ### Sparse Variational Gaussian Process (SVGP)
 
-Naive implementation of [Sparse Variational Gaussian Process (Hensman et al.)](https://proceedings.mlr.press/v38/hensman15.html)() in Tensorflow.
+Naive implementation of [Sparse Variational Gaussian Process (Hensman et al.)](https://proceedings.mlr.press/v38/hensman15.html) in Tensorflow.
 
 Whitening (reparameterization) is used for faster convergence.
 
