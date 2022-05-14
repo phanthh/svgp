@@ -287,7 +287,7 @@ plt.title("Classification data", fontsize=20)
 
 # %%
 # Model
-num_steps = 50000
+num_steps = 15000
 model = SVGP((X, Y), RBF(), classif_log_likelihood)
 losses, inducing_points, posteriors = model.train(num_steps)
 
@@ -372,3 +372,6 @@ def animate(i):
 anim = ani.FuncAnimation(fig, animate, frames=len(
     losses), interval=1, blit=False)
 HTML(anim.to_jshtml())
+
+# %%
+anim.save('animation.gif', writer='imagemagick')
