@@ -6,8 +6,8 @@ Experimented on the `banana` dataset for classification task.
 
 ### Training
 
-![Training](results/animation.gif)
+![Training](results/animation.gif | width=100)
 
 ### Results
 
-![Result](results/result.png)
+![Result](results/result.png | width=210)
